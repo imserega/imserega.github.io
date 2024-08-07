@@ -6,6 +6,7 @@ body {
     background: var(--tg-theme-bg-color);
     width: 390px;
     margin-top: 70px;
+    touch-action: pan-y;
 }
 
 .container {
