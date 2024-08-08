@@ -1,3 +1,9 @@
+html {
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +11,8 @@ body {
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
     width: 390px;
+    align-items: center;
+    justify-content: center;
     margin-top: 70px;
 
 }
@@ -15,6 +23,8 @@ body {
 
 .container {
     position: relative;
+    align-items: center;
+    justify-content: center;
     padding-top: 40px;
     max-width: 390px;
     width: 100%;
