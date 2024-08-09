@@ -1,88 +1,38 @@
-html {
-    width: 390px;
-    align-items: center;
-    justify-content: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-    color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
-    width: 390px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-
+    max-width: 350px;
+    text-align: center;
+    touch-action: none;
 }
 
-.wrap {
+.logo {
     text-align: center;
-}
-
-.container {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    max-width: 390px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.inner {
-    /* display: flex; */
-  align-items: center;
-  justify-content: center;
-    text-align: center;
-    padding-top: 40px;
-    /* padding-left: 30px; */
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px;
-    gap: 10px;
-
-    /* width: 390; */
-    margin: 0 auto;
-}
-.item {
-    text-align: center;
-}
-.meowmenu {
-    text-align: center;
-    margin-top: 30px;
-}
-.meow {
-    text-align: center;
-    width: 250px;
-    height: 60px;
-    border-radius: 18px;
-    border: none;
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.product {
-    
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    font-weight: 900;
-    
-    width: 100%;
-    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.btn {
-    display: inline-block;
+
+.miniappbtn {
+    position: relative;
     width: 90px;
     height: 90px;
     border-radius: 18px;
     border: none;
-    /* background: ; */
-    /* padding: 10px; */
+    margin: 7px;
 }
 
-/* var(--tg-theme-bg-color); */
-/* var(--tg-theme-text-color); */
+.meow {
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 60px;
+    border-radius: 18px;
+    border: none;
+    margin-top: 15px;
+}
