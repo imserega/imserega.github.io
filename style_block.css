@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.back img{
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    width: 90px;
+    height: 90px;
+    background: none;
+    border-radius: 27px;
+    border: none;
+    margin: 7px;
+    z-index: 1;
+    
+}
+
+
