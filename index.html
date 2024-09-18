@@ -23,7 +23,16 @@
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>window.Telegram.WebApp.disableVerticalSwipes()</script>
-    <script>Telegram.WebApp.MainButton.show();<script>
+    <script>
+        Telegram.WebApp.MainButton.show(); // Показываем кнопку "Закрыть"
+    
+    // Скрыть кнопку "Назад", если она есть
+        Telegram.WebApp.BackButton.hide();
+    
+    // Добавить действие для кнопки "Закрыть"
+        Telegram.WebApp.MainButton.onClick(() => {
+          Telegram.WebApp.close(); // Закрыть приложение
+    });<script>
 
     
         <!-- Yandex.Metrika counter -->
